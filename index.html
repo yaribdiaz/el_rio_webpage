@@ -1,0 +1,306 @@
+<!DOCTYPE html><!--informa al navegador que versión de HTML (o XML) se usó para escribir el documento-->
+<html lang="en"><!--le indica al navegador que todo el contenido de la página está en inglés-->
+<head>
+    <meta charset="UTF-8"><!--Para validar todos los carácteres dentro del navegador-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Río</title> <!--Título de la pestaña que recibirá en el navegar-->
+    <meta name="description" content="El Rio Balneario">
+    <link rel="shortcut icon" href="https://toppng.com/uploads/preview/waves-icon-cartoon-ocean-wave-11562857736zsgwmxpvmr.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--link para importar una fuente de letra desde la web con el link especificado-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+     <!-- links de estilos que importara la pagina, se especifica la ruta -->
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="https://kit.fontawesome.com/9c8d3bfaa9.js" crossorigin="anonymous"></script>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+
+     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+    <script>
+    window.console = window.console || function(t) {};
+    </script>
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+     </script>
+
+</head>
+<body>
+
+    <header class="header"><!--Encabezado de nuestra pagina, aqui es donde nosotros comenzamos a darle forma al sitio-->
+        <div class="contenedor contenido-header">
+             <!--creamos un div para formar el recuadro que tendra nuestro encabezado y asignado una clase para manipular el alto, ancho, etc..-->
+             <a class="wrapper" href="index.html">
+                <h1 class="wave-btn">El <span class="logo__bold ">Río</span></h1>
+            </a> 
+
+            <nav class="navegacion-principal">
+                 <!--contiene los elementos que crea nuestra barra superior de navegación -->
+                <a href="#horarios">Horarios</a>
+                <a href="#contacto">Contacto</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <!-- contenedor video del encabezado que aparece como fondo-->
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <!--texto que está por encima de video de encabezado de página-->
+                <h2>¡VEN Y DIVIÉRTETE!</h2>
+               
+            </div>
+            <p class="fa-beat center" style="--fa-animation-duration: 4s;">¡Entrada Gratis!</p>
+        </div>
+        <video autoplay muted loop>
+            <!--recursos para reproducir video en caso de estar conectado a internet o en caso de que no-->
+            <source src="video/agua.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <section id="boletos" class="boletos bg-black">
+
+        <!--apartado de información de boletos y que 
+            contienen según el precio de cada boleto-->
+
+        <div class="contenedor contenedor-boletos">
+            <!--hay dos apartados, este apartado es de boleto basico-->
+            <div class="imagen">
+            <!--imagen de contexto para acerca del festival donde se colocan enlaces en caso de estar contectado a la web y en caso
+            de no ser así utilizar la que se guarda en los archivos de la pagina-->
+            <picture>
+
+                <img id="pic" loading="lazy" width="1000" height="200"  src="img/rio0.jpg" alt="imagen vocalista">
+            </picture>
+        </div>
+        <!--texto que describe el festival-->
+        <div class="contenido-festival">
+            <h2>Ven y visitanos </h2>
+            <p class="fecha">Progreso de Obregón, Hidalgo</p>
+            <p>El municipio posee diversas atracciones turísticas, entre ellas el Parque Ecoturistico, conocido como "El Río", que cuenta con manantiales naturales y albercas.</p>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="boletos" class="boletos bg-morado">
+            <section  class="galeria contenedor">
+                <h3 class="center">Galería</h3>
+                <main>
+                    <div class="headers ">
+                        <p class="centrar">¡Ven y disfruta de un buen y refrescante momento!</p>
+                    
+                      </div>
+                      <div class="owl-carousel owl-theme">
+                        <div class="item">
+                          <img src="img/rio0.jpg" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio1.jfif" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio2.jpg" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio3.jpg" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio4.jfif" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio5.jpg" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item">
+                          <img src="img/rio6.jpg" alt="">
+                          <div class="overlay">
+                            <div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </main>
+                    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+        
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+              <script id="rendered-js" >
+        /* inspiration 
+        https://cz.pinterest.com/pin/830703093774129160/ */
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1 },
+        
+            600: {
+              items: 3 } } });
+        //# sourceURL=pen.js
+            </script>
+            </section>
+    </section>
+
+
+
+
+   
+
+
+
+
+
+    <section id="lineup" class="bg-cafe">
+        <!--lineup o lista de artistas que se presentarán así como fechas y horarios de
+        presentación-->
+        <div class="escenarios-contenedor contenedor  horario">
+            <div class="escenario rock bg-amarillo" id="horarios">
+                <h3 class="nombre-escenario">Horarios</h3>
+                <!--listado de horarios y artistas que estarán presentes en el escenario de rock, 
+                están en listado como biñetas "ul" y "li" pero se acomodan en css-->
+                <ul class="calendario">
+                    <li>
+                        Lunes | <span>8:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Martes | <span>8:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Miércoles | <span>8:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Jueves | <span>8:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Viernes | <span>7:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Sábado | <span>7:00 - 20:00</span>
+                    </li>
+                    <li>
+                        Domingo | <span>7:00 - 18:00</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+            
+            <div class="escenario edm bg-verde">
+
+                
+                <h3 class="nombre-escenario">Contamos con...</h3>
+            <!--listado de horarios y artistas que estarán presentes en el escenario de EDM, 
+            están en listado como biñetas "ul" y "li" pero se acomodan en css-->
+                <ul class="calendario">
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i><span> Albercas para adultos</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i><span> Albercas infantiles</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i><span> Áreas verdes</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i><span> Juegos infantiles</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i><span> Cancha de basketball</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i> <span> Cancha de fútbol</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-umbrella-beach fa-bounce"></i> <span>  Estacionamiento</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenarios-contenedor -->
+
+    </section>
+
+
+
+
+
+    <section id="boletos" class="boletos bg-white">
+
+        <!--apartado de información de boletos y que 
+            contienen según el precio de cada boleto-->
+
+        <div class="contenedor contenedor-boletos">
+            <!--hay dos apartados, este apartado es de boleto basico-->
+            <div class="imagen">
+            <!--imagen de contexto para acerca del festival donde se colocan enlaces en caso de estar contectado a la web y en caso
+            de no ser así utilizar la que se guarda en los archivos de la pagina-->
+            <picture>
+                <h3>¿Cómo llego?</h3>
+                <div class="responsive-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3533.123987043895!2d-99.1969047113292!3d20.249940234483585!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6653a5a6fd97a0!2sBalneario%20El%20R%C3%ADo!5e0!3m2!1ses!2smx!4v1657318301800!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                
+            </picture>
+        </div>
+        <!--texto que describe el festival-->
+        <div class="contenido-festival" id="contacto">
+            <h2>¡Síguenos y etiquetanos con tus mejores fotos! </h2>
+            <center>
+            <nav class="navegacion-final">
+                <!--contiene los elementos que crea nuestra barra superior de navegación -->
+               <a href="https://www.facebook.com/ElRioProgresoDeO/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+               <a href="https://www.instagram.com/elrio_progresodeobregon/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+               <a href="https://wa.me/7721514998"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+               
+           </nav>
+           <br>
+            <p>Un escenario natural ideal para una escapada en familia.</p>
+        </div>
+        </div>
+    </section>
+
+
+
+  
+
+
+    
+
+
+
+    <!--pie de pagina de nuestro sitio web-->
+    <footer class="site-footer">
+        <p>Cuida el medio ambiente, cuida los espacios.</p>
+    </footer>
+
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
